@@ -61,6 +61,12 @@ build CMakeFiles/SkipList.dir/skip_list.c.obj: C_COMPILER__SkipList_unscanned_De
   OBJECT_DIR = CMakeFiles\SkipList.dir
   OBJECT_FILE_DIR = CMakeFiles\SkipList.dir
 
+build CMakeFiles/SkipList.dir/running_competition.c.obj: C_COMPILER__SkipList_unscanned_Debug D$:/Egyetem/Info/SkipList/running_competition.c || cmake_object_order_depends_target_SkipList
+  DEP_FILE = CMakeFiles\SkipList.dir\running_competition.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SkipList.dir
+  OBJECT_FILE_DIR = CMakeFiles\SkipList.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SkipList
@@ -69,7 +75,7 @@ build CMakeFiles/SkipList.dir/skip_list.c.obj: C_COMPILER__SkipList_unscanned_De
 #############################################
 # Link the executable SkipList.exe
 
-build SkipList.exe: C_EXECUTABLE_LINKER__SkipList_Debug CMakeFiles/SkipList.dir/main.c.obj CMakeFiles/SkipList.dir/skip_list.c.obj
+build SkipList.exe: C_EXECUTABLE_LINKER__SkipList_Debug CMakeFiles/SkipList.dir/main.c.obj CMakeFiles/SkipList.dir/skip_list.c.obj CMakeFiles/SkipList.dir/running_competition.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SkipList.dir

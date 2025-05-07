@@ -2,8 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include "skip_list.h"
-
+#include"running_competition.h"
+void test();
 int main(void) {
+   //test();
+    demo_exercise();
+    return 0;
+}
+void test() {
     srand(time(0));
 
     // Create skip list with an estimated number of elements
@@ -43,5 +49,4 @@ int main(void) {
     // Free memory
     free_skip_list(list);
 
-    return 0;
 }
